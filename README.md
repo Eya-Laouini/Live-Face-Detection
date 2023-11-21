@@ -16,18 +16,21 @@ Live Face Detection is a Python application that uses OpenCV for real-time face 
 
 ## Prerequisites
 - Python 3.x
-- OpenCV library
+- OpenCV library 
 - `haarcascade_frontalface_default.xml` file (included)
 
 ## Installation
 1. **Install Python**: Ensure Python 3.x is installed on your system. [Official Python website](https://www.python.org/downloads/).
 2. **Install OpenCV**: Install using pip:
+```bash
+pip install opencv-python
+```
 3. **Clone the Repository**: Download or clone this repository to your local machine.
 4. **Haarcascade File**: Ensure the `haarcascade_frontalface_default.xml` file is in the same directory as the script.
 
 ## Usage
-Run the application with:
-Replace `[script_name]` with the Python script name. The application accesses the webcam, highlighting detected faces with rectangles. Press 'q' to quit.
+Run the application simply by clicking on the run button, or by typing in the Python shell : 
+python main.py .The application accesses the webcam, highlighting detected faces with rectangles. Press 'q' to quit.
 
 ## Troubleshooting
 - Check webcam connection and accessibility.
