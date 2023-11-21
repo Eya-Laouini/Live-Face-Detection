@@ -30,7 +30,7 @@ pip install opencv-python
 
 ## Usage
 Run the application simply by clicking on the run button, or by typing in the Python shell : 
-python main.py .The application accesses the webcam, highlighting detected faces with rectangles. Press 'q' to quit.
+ `python main.py ` .The application accesses the webcam, highlighting detected faces with rectangles. Press 'q' to quit.
 
 ## Troubleshooting
 - Check webcam connection and accessibility.
